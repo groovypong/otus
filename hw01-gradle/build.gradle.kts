@@ -15,7 +15,4 @@ tasks.shadowJar {
     manifest {
         attributes("Main-Class" to "ru.otus.HelloOtus")
     }
-
-    archiveClassifier.set(null)
-    archiveBaseName.set("толстый")
 }
