@@ -1,0 +1,8 @@
+[versions]
+guava = "33.5.0-jre"
+
+[libraries]
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+
+[plugins]
+shadow = "com.gradleup.shadow:9.4.1"
